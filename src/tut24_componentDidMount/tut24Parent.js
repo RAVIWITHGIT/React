@@ -18,10 +18,7 @@ class Tut24Parent extends Component{
             <div className='text-center' >
                 <h1>componentDidMount file</h1>
                 <h2>name is {this.state.name}</h2>
-                {/* {
-                    this.setState({name:"shyam"})
-                } */}
-                {/* <button onClick={()=>{this.setState({name:"shyam"})}}>change name</button> */}
+                <button onClick={()=>{this.setState({name:"shyam"})}}>change name</button>
             </div>
         )
     }
