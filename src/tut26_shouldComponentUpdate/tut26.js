@@ -21,21 +21,20 @@ class Tut26 extends Component {
     //     return false
     // }
 
-    componentDidUpdate(){
-        console.log("componentDidUpdate")
-    }
-    shouldComponentUpdate(){
-        console.log("shouldComponentUpdate")
-        return true
-    }
+    
     // shouldComponentUpdate(){
-    //     console.log("shouldComponentUpdate",this.state.count)
-    //     if(this.state.count>=5 && 10>=this.state.count){
-    //         return true
-    //     }else{
-    //         return false
-    //     }
+    //     console.log("shouldComponentUpdate")
+    //     return true
     // }
+    
+    shouldComponentUpdate(){
+        console.log("shouldComponentUpdate",this.state.count)
+        if(this.state.count>=5 && 10>=this.state.count){
+            return true
+        }else{
+            return false
+        }
+    }
 
 
     render(){
