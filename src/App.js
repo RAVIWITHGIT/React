@@ -1,12 +1,12 @@
 import React from 'react';
-import Tut27Parent from './tut27_componentWillunmount/tut27Parent';
+import Tut29 from './tut29_useEffectBasic/tut29';
 
 
 
 function App() {
   
   return (    
-    <Tut27Parent/>
+    <Tut29/>
   );
 }
 
