@@ -1,12 +1,12 @@
 import React from 'react';
-import Tut29 from './tut29_useEffectBasic/tut29';
+import Tut30 from './tut30useEffect_withcondition/tut30';
 
 
 
 function App() {
   
   return (    
-    <Tut29/>
+    <Tut30/>
   );
 }
 
