@@ -1,12 +1,12 @@
 import React from 'react';
-import Tut32 from './tut32_Reactbootstrap/tut32';
+import Tut34 from './tut34Listwithbootstrap_table/tut34';
 
 
 
 function App() {
   
   return (    
-    <Tut32/>
+    <Tut34/>
   );
 }
 
