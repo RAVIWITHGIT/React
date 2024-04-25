@@ -1,12 +1,12 @@
 import React from 'react';
-import Tut35 from './tut35_NestedList/tut35';
+import Tut36 from './tut36_ReuseComponent/tut36';
 
 
 
 function App() {
   
   return (    
-    <Tut35/>
+    <Tut36/>
   );
 }
 
