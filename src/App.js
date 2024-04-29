@@ -1,12 +1,12 @@
 import React from 'react';
-import Tut38parent from './tut38_DataChild_to_Parent/tut38Parent';
+import Tut39 from './tut39_PureComponent/tut39';
 
 
 
 function App() {
   
   return (    
-    <Tut38parent/>
+    <Tut39/>
   );
 }
 
