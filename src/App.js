@@ -1,13 +1,12 @@
 import React from 'react';
-import Tut40 from './tut40_useMemo/tut40';
-import Tut41 from './tut41_ref/tut41';
+import Tut42 from './tut42_UseRef/tut42';
 
 
 
 function App() {
   
   return (    
-    <Tut41/>
+    <Tut42/>
   );
 }
 
