@@ -1,13 +1,12 @@
 import React from 'react';
-import Tut42 from './tut42_UseRef/tut42';
-import Tut43Parent from './tut43_forwardRef/tut43Parent';
+import Tut44 from './tut44_controlledcomponent/tut44';
 
 
 
 function App() {
   
   return (    
-    <Tut43Parent/>
+    <Tut44/>
   );
 }
 
