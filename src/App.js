@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Tut46 from './tut46_HigerOrderComponent/tut46';
-import MRoute from './tut48_LinkWithRouter/route';
+
+import Myroute from './tut49_404PageWithRedirect/myroute';
 
 
 
 function App() {
   
   return (    
-    <MRoute/>
+    <Myroute/>
   );
 }
 
