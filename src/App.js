@@ -1,14 +1,14 @@
 import React from 'react';
+import Sroute from './tut51_dynamicRoute/myroute';
 
 
-import Myroute from './tut49_404PageWithRedirect/myroute';
 
 
 
 function App() {
   
   return (    
-    <Myroute/>
+    <Sroute/>
   );
 }
 
