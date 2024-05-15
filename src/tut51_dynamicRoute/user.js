@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 
 const User = () => {
     const parames = useParams();
+    // console.log(parames)
     const {myname} = parames
     console.log(myname)
   return (

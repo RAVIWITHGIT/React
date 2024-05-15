@@ -1,0 +1,10 @@
+.mynav{
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+
+/* ************ uncomment when we use active class */
+/* li .active{
+    color: yellow;
+} */
