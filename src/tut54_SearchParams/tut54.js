@@ -24,7 +24,7 @@ const Tut54 = () => {
     <div className='text-center'>
       <h2>Search Parames hook</h2>
       <h2>age is {age}</h2>
-      {/* <h2>city is {city}</h2> */}    //use for multi query params
+       {/* <h2>city is {city}</h2>    use for multi query params */}
       <button onClick={()=>setSearchParams({age:30,city:"bassi"})}>set Search Params</button>
     </div>
   )

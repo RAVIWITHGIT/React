@@ -1,5 +1,5 @@
 import React from 'react';
-import Tut54 from './tut54_SearchParams/tut54';
+import Myroute from './tut55_useNevegation/myroute';
 
 
 
@@ -8,7 +8,7 @@ import Tut54 from './tut54_SearchParams/tut54';
 function App() {
   
   return (    
-    <Tut54/>
+    <Myroute/>
   );
 }
 
