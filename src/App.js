@@ -1,5 +1,6 @@
 import React from 'react';
 import Myroute from './tut55_useNevegation/myroute';
+import Routing from './tut56_NestedRouting/routing';
 
 
 
@@ -8,7 +9,7 @@ import Myroute from './tut55_useNevegation/myroute';
 function App() {
   
   return (    
-    <Myroute/>
+    <Routing/>
   );
 }
 
