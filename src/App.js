@@ -1,5 +1,5 @@
 import React from 'react';
-import Tut69 from './tut69_PrivousState/tut69';
+import Tut70 from './tut70_PrivousProps/Tut70';
 
 
 
@@ -8,7 +8,7 @@ import Tut69 from './tut69_PrivousState/tut69';
 function App() {
   
   return (    
-    <Tut69/>
+    <Tut70/>
   );
 }
 
