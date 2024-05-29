@@ -1,5 +1,5 @@
 import React from 'react';
-import Tut68 from './tut68_UpdateData/tut68';
+import Tut69 from './tut69_PrivousState/tut69';
 
 
 
@@ -8,7 +8,7 @@ import Tut68 from './tut68_UpdateData/tut68';
 function App() {
   
   return (    
-    <Tut68/>
+    <Tut69/>
   );
 }
 
