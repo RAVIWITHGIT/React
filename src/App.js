@@ -1,5 +1,5 @@
 import React from 'react';
-import Tut70 from './tut70_PrivousProps/Tut70';
+import Tut71 from './tut71_StateWithObject/Tut71';
 
 
 
@@ -8,7 +8,7 @@ import Tut70 from './tut70_PrivousProps/Tut70';
 function App() {
   
   return (    
-    <Tut70/>
+    <Tut71/>
   );
 }
 
