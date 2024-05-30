@@ -1,5 +1,5 @@
 import React from 'react';
-import Tut71 from './tut71_StateWithObject/Tut71';
+import Tut72 from './tut72_useContext/Tut72Parent';
 
 
 
@@ -8,7 +8,7 @@ import Tut71 from './tut71_StateWithObject/Tut71';
 function App() {
   
   return (    
-    <Tut71/>
+    <Tut72/>
   );
 }
 
