@@ -6,11 +6,27 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import reportWebVitals from './reportWebVitals';
 
+//------------------------- react-redux code start
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from './react-redux/Services/Reducers/index'
+const store = createStore(rootReducer)
+console.log(store)
+//------------------------- react-redux code end
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <BrowserRouter>
+//     <App />
+//   </BrowserRouter>
+// );
+
+
+//------------------------------react-redux
 root.render(
-  <BrowserRouter>
+  <Provider store={store}>
     <App />
-  </BrowserRouter>
+    </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -4,7 +4,8 @@ import Card from 'react-bootstrap/Card';
 import Mobile from '../img/Mobile.png'
 import Cart from '../img/Cart.png'
 
-const Home = () => {
+const Home = (props) => {
+  console.log("Home props",props)
   return (
     <div>
       <h2>Home Page</h2>
@@ -19,7 +20,7 @@ const Home = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Add Cart</Button>
+        <Button variant="primary" onClick={()=>{props.addToCartHandler({price:14000,name:"samsang"})}}>Add Cart</Button>
       </Card.Body>
     </Card>
     </div>
