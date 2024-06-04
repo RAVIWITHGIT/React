@@ -2,16 +2,13 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Mobile from '../img/Mobile.png'
-import Cart from '../img/Cart.png'
 
 const Home = (props) => {
   console.log("Home props",props)
   return (
     <div>
       <h2>Home Page</h2>
-      <div className='card_div d-flex justify-content-end' >
-        <img className='img-fluid ' style={{width:"70px"}} src={Cart}/>
-      </div>
+      
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Mobile} />
       <Card.Body>
@@ -21,6 +18,7 @@ const Home = (props) => {
           bulk of the card's content.
         </Card.Text>
         <Button variant="primary" onClick={()=>{props.addToCartHandler({price:14000,name:"samsang"})}}>Add Cart</Button>
+        <Button variant="secondary" onClick={()=>{props.RemoveToCartHandler()}}>Remove to Cart</Button>
       </Card.Body>
     </Card>
     </div>
